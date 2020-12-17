@@ -11,6 +11,7 @@ class Main extends CI_Controller {
 
     public function index() {
         $data['type'] = $this->plan_model->getType();
+        $data['Name'] = $this->plan_model->getName();
 
         $this->load->view('templates/header', $data);
         $this->load->view('tables/index', $data);

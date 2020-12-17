@@ -6,11 +6,23 @@ class View extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->load->model('JqGrid_model');
+        $this->load->model('jqgrid_model');
     }
 
-    public function index() {
+    function jqGrid(){
+        $this->load->view('templates/header');
+        $this->load->view('tables/index');
+        $this->load->view('templates/footer');
+    }
 
+    function index(){
+        $this->load->view('templates/header');
+        $this->load->view('tables/index');
+        $this->load->view('templates/footer');
+    }
+
+    public function loadData() {
+        $data['Type'] = $this->jqgrid_model->getAllData();
     }
 
 }
