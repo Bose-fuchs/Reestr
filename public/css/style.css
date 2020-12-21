@@ -1,52 +1,52 @@
 body {
     background: #e9f0f2;
     /*background: #A4ABAD;*/
-     font: 12px/18px Arial, sans-serif;
- } 
- header {
-     position: relative;
-     z-index: 102;
-     margin: 0 0 30px;
-     background: #fff;
- }
+    font: 12px/18px Arial, sans-serif;
+} 
+header {
+    position: relative;
+    z-index: 102;
+    margin: 0 0 30px;
+    background: #fff;
+}
  
- .logo {
-     width: 150px;
- }
+.logo {
+    width: 150px;
+}
  
- .heder_body {
-     max-width: 1000px;
-     margin: auto;
- }
+.heder_body {
+   max-width: 1000px;
+    margin: auto;
+}
  
- .header_left {
-     display: flex;
-     align-items: center;
- }
+.header_left {
+    display: flex;
+   align-items: center;
+}
  
- .header_right {
-     display: flex;
-     align-items: center;
- }
+.header_right {
+    display: flex;
+    align-items: center;
+}
  
- .header_top {
-     display: flex;
-     justify-content: space-between;
- }
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
  
- .header_bottom {
-     position: relative;
-     margin: 11px 0 0;
-     border-top: 1px solid #ebebeb;
-     padding: 10px;
- }
+.header_bottom {
+    position: relative;
+    margin: 11px 0 0;
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+}
  
- .bottom_menu {
-     display: flex;
-     justify-content: space-between;
-     width: 80%;
-     margin: auto;
- }
+.bottom_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
  
  .bottom_menu a {
      text-decoration: none;
@@ -86,4 +86,7 @@ body {
      justify-content: space-between;
      align-items: center;
  }
- 
+
+h1 {
+    line-height: 25px;
+}

@@ -24,7 +24,10 @@
             <div class="header_top">
                 <div class="header_left">
                     <img src="<?php echo base_url();?>public/image/emblem.png" alt="герб" class="logo">
-                    <h1>Рестр проверок</h1>
+                    <h1>
+                        Рестр проверок <br>
+                        Юридических лиц
+                    </h1>
                 </div>
                 <div class="header_right">
                     <div class="social_link">
@@ -37,8 +40,7 @@
             <div class="header_bottom">
                 <div class="bottom_menu">
                     <a href="">Проверки</a>
-                    <a href="">Типы организаций</a>
-                    <a href="">Виды организаций</a>
+                    <a href="">Справочник</a>
                 </div>
             </div>
         </div>
